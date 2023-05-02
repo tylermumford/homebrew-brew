@@ -1,4 +1,8 @@
-# Tylermumford Brew
+# Tyler Mumford's Homebrew Tap
+
+For now, this is just for [localstatus].
+
+[localstatus]: https://github.com/tylermumford/localstatus
 
 ## How do I install these formulae?
 
