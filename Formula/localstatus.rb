@@ -15,9 +15,9 @@ class Localstatus < Formula
   test do
     # Create empty config file
     Dir.mkdir("./.config")
-    File.open("./.config/localstatus.toml", "w") {
-      #noop
-    }
+    File.open("./.config/localstatus.toml", "w") do
+      # empty
+    end
 
     # Run program
     system("#{bin}/localstatus")
