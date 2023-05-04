@@ -5,7 +5,7 @@ class Localstatus < Formula
   sha256 "aacf2b445ca5af8a24cbf67b77de9596a23eeca85e6a7c03cc0309a60c7bb613"
   license "BSD-3-Clause"
 
-  depends_on "go"
+  depends_on "go" => :build
 
   def install
     system "go", "build"
